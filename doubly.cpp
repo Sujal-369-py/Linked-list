@@ -136,6 +136,7 @@ class LinkList
             count--;
         }
     }
+    // traverse logic
     void traverse()
     {
         if(start == nullptr)
@@ -167,6 +168,8 @@ class LinkList
 
 };
 
+
+// main part
 int main()
 {
     LinkList lt;
