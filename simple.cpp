@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//here is structure
 struct list
 {
     int data;
@@ -10,6 +11,8 @@ struct list *start = nullptr;
 struct list *last = nullptr;
 struct list *temp;
 
+
+//Here is the class
 class LinkList 
 {
     private: 
